@@ -7,21 +7,6 @@ const formButton = document.querySelector(".submit");
 const container = document.querySelector(".container");
 let screenBooks = document.querySelectorAll(".book");
 
-// statuses.forEach((stat) => {
-//     stat.addEventListener('click', () => {
-//         if (stat.classList == 'status') {
-//             stat.classList = 'status reading';
-//             stat.innerText = 'Reading...';
-//         } else if (stat.classList == 'status reading') {
-//             stat.classList = 'status complete';
-//             stat.innerText = 'Completed';
-//         } else if (stat.classList == 'status complete') {
-//             stat.classList = 'status';
-//             stat.innerText = 'Not read';
-//         }
-//     });
-// });
-
 //displays form pop-up
 addButton.addEventListener('click', () => {
     overlay.classList.remove('none');
